@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5c167a58-d8eb-44c1-9fc7-880b70a5b5f1}">
+		<property name="assetPath">
+			<value>Tutorial Audio Arp Track.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>34.74285714285714</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d1f6a7ef-1342-4178-bab8-3a1cb5300642}</destination>
+		</relationship>
+	</object>
+</objects>

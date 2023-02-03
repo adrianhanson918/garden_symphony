@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerMaster" id="{979317d7-309e-472c-a48d-398888b091b4}">
+		<property name="name">
+			<value>Master Bus</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ec74c2fc-5d0f-4bca-b953-f8aa8a3d0e90}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e93772c4-fecc-44d9-84d8-b76fe680f412}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{cd1600a1-3451-43be-8a2f-75ba14ddc11a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ec74c2fc-5d0f-4bca-b953-f8aa8a3d0e90}">
+		<relationship name="effects">
+			<destination>{de5d1f75-20fb-47cf-8caa-2dc25360941b}</destination>
+			<destination>{b31e5e8b-b4b5-4fae-b4db-be71edcd0642}</destination>
+			<destination>{8d79a14e-083e-48f1-8e8f-aa4f8bca8366}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e93772c4-fecc-44d9-84d8-b76fe680f412}">
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{de5d1f75-20fb-47cf-8caa-2dc25360941b}">
+		<property name="decayTime">
+			<value>240</value>
+		</property>
+		<property name="lateDelay">
+			<value>16</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>47.5</value>
+		</property>
+		<property name="diffusion">
+			<value>37.5</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-15</value>
+		</property>
+		<property name="highCut">
+			<value>9500</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>67</value>
+		</property>
+		<property name="wetLevel">
+			<value>-13</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{b31e5e8b-b4b5-4fae-b4db-be71edcd0642}" />
+	<object class="LimiterEffect" id="{8d79a14e-083e-48f1-8e8f-aa4f8bca8366}">
+		<property name="ceiling">
+			<value>-1.10000002</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{512eaa12-d93a-42c1-add4-76b9a07aa92d}">
+		<property name="assetPath">
+			<value>Player Sounds/Attacks/Basic Attack Sounds/Whoosh Fast Speed High Pitch 6.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.383875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d1f6a7ef-1342-4178-bab8-3a1cb5300642}</destination>
+		</relationship>
+	</object>
+</objects>

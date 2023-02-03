@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{59eb6ffe-d0c1-4e90-ba6f-10fbb5b187e6}">
+		<property name="assetPath">
+			<value>Player Sounds/Movements/Jump/NOISE SPRING 2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.74458333333333337</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d1f6a7ef-1342-4178-bab8-3a1cb5300642}</destination>
+		</relationship>
+	</object>
+</objects>

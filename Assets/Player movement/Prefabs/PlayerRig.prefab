@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211664956825602886}
-  m_LocalRotation: {x: 0.112243995, y: -0.0021046314, z: 0.00023773505, w: 0.99367845}
+  m_LocalRotation: {x: 0.035183143, y: 0.0003088214, z: -0.000010872039, w: 0.9993809}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -670,7 +670,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211664958055792326}
-  m_LocalRotation: {x: 0.1302523, y: -0.0020999846, z: 0.00027587873, w: 0.9914786}
+  m_LocalRotation: {x: 0.053307574, y: 0.0003085756, z: -0.000016472837, w: 0.99857813}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -748,7 +748,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211664958218586002}
-  m_LocalRotation: {x: 0.14826524, y: -0.002094585, z: 0.00031402556, w: 0.98894536}
+  m_LocalRotation: {x: 0.071462385, y: 0.00030823986, z: -0.000022084021, w: 0.99744326}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 3325996122334825321}
   - component: {fileID: 1607694745335362153}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: GameplayHud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1055,6 +1055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hero
       objectReference: {fileID: 0}
+    - target: {fileID: 6471091708529980615, guid: 391ce0a0e4398d44b8cdb160a6286413, type: 3}
+      propertyPath: abilityTrackerPanel
+      value: 
+      objectReference: {fileID: 3946042125693759130}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 391ce0a0e4398d44b8cdb160a6286413, type: 3}
 --- !u!4 &211664956288746721 stripped

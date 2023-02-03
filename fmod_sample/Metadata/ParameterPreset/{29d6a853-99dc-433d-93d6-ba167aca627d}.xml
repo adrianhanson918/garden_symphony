@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{29d6a853-99dc-433d-93d6-ba167aca627d}">
+		<property name="name">
+			<value>Boss State</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d02de228-8128-41c2-acdf-6d84daa6535e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b011f500-f5e7-42f7-ae88-180ae3c5c586}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b011f500-f5e7-42f7-ae88-180ae3c5c586}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Hidden</value>
+			<value>Spawning</value>
+			<value>Fight</value>
+			<value>Defeated</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
