@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{60bf0fda-f4fe-4184-98ef-e446fcb93b4b}">
+		<property name="name">
+			<value>Orbs Lit</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d02de228-8128-41c2-acdf-6d84daa6535e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{307f3e4b-040e-4fe8-bb7f-a37a3fbcd72b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{307f3e4b-040e-4fe8-bb7f-a37a3fbcd72b}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>PARAMETER UNUSED</value>
+			<value>Orbs Unlit</value>
+			<value>All Orbs Lit</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

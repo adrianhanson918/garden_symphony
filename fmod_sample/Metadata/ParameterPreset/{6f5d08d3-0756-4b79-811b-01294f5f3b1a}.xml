@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{6f5d08d3-0756-4b79-811b-01294f5f3b1a}">
+		<property name="name">
+			<value>Light Level</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d02de228-8128-41c2-acdf-6d84daa6535e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c305efd1-22cc-4134-a785-01683f670fc1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c305efd1-22cc-4134-a785-01683f670fc1}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>7</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Level 1 - No Orbs Lit</value>
+			<value>Level 2 - 1 Orb Lit</value>
+			<value>Level 3 - 2 Orbs Lit</value>
+			<value>Level 4 - 3 Orbs Lit</value>
+			<value>Level 5 - 4 Orbs Lit</value>
+			<value>Level 6 - All Orbs Lit</value>
+			<value>END - Boss Dead</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
